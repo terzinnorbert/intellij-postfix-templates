@@ -1,0 +1,14 @@
+.for : foreach
+	array   →   foreach ($expr$ as $var:phpSuggestVariableName():"\$item"$) {\
+	$END$\
+}
+
+.foreach : foreach
+	array   →   foreach ($expr$ as $var:phpSuggestVariableName():"\$item"$) {\
+	$END$\
+}
+
+.iter : foreach
+	array   →   foreach ($expr$ as $var:phpSuggestVariableName():"\$item"$) {\
+	$END$\
+}
